@@ -31,7 +31,13 @@ color: #424242;
 }
 
 
+#Branding{
+    height: 160px;
+}
 
+#Branding #Logo{
+    font-size: 100px;
+}
 
 
 
@@ -65,6 +71,21 @@ article{
     color: #FFF;
     font-weight: 600;
 }
+
+
+
+/****Video****/
+
+
+#videocontainer video{
+    transition: transform 0.8s;
+}
+
+#videocontainer video:hover{
+    transition: transform 0.8s;
+    transform: scale(2,2);
+}
+
 
 
 #videocontainer video{
