@@ -21,6 +21,7 @@ function restart() {
 
         var video = document.getElementsByTagName("video")[i];
         video.currentTime = 0;
+        video.play();
     }
 }
     

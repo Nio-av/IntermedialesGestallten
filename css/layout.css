@@ -79,11 +79,16 @@ article{
 
 #videocontainer video{
     transition: transform 0.8s;
+    filter: brightness(50%);
+    z-index: 0;
 }
 
 #videocontainer video:hover{
     transition: transform 0.8s;
     transform: scale(2,2);
+    transition: brightness 0.8s;
+    filter: brightness(100%);
+    z-index: 3 !important;
 }
 
 
