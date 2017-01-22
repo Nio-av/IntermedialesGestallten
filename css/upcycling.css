@@ -14,18 +14,23 @@
     margin-left: 95px;
 }
 
-#begeisterung{
+.textbox{
     margin-top: 50px;
     width: 100%;
-}
-
-#begeisterung .text{
     background-color: var(--main-color);
-    padding: 15px;
-    width: calc(70% - 30px);
-    float: left;
+    display: flex;
 }
 
-#begeisterung img{
-    width: 30%;
+.textbox .text{
+    display: contents;
+}
+
+.textcontainer{
+    width: 70%;
+    padding: 20px;
+}
+
+.text img{
+    width: 30vw;
+    height: 30vw;
 }
