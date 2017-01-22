@@ -1,15 +1,19 @@
+:root {
+    --main-color: #878787;
+}
+
 #question{
     font-size: 170px;
     float: left;
     display: block;
-    color: yellow;
+    #color: yellow;
     margin: inherit;
     text-shadow: 2px 1px 4px #191919;
 }
 
 #definition-Text{
     background-color: var(--main-color);
-    color: yellow;
+    #color: yellow;
     padding: 15px;
     margin-left: 95px;
 }
@@ -30,7 +34,24 @@
     padding: 20px;
 }
 
-.text img{
+.textbox img{
     width: 30vw;
     height: 30vw;
+}
+
+
+.PostIt{
+    width: 20vw;
+    height: 20vw;
+    background:#fefabc; 
+    padding:15px; 
+    font-family: 'Gloria Hallelujah', cursive; 
+    font-size:20px; 
+    color: #000; 
+    width:200px; 
+    box-shadow: 0px 4px 6px #333;
+    transform: rotate(7deg);
+    
+    display: table-cell;
+    vertical-align: middle;
 }
