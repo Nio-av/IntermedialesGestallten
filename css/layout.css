@@ -31,13 +31,13 @@ color: #424242;
 }
 
 
-#Branding{
-    height: 160px;
+
+#Branding a img{
+    margin: 15px;
+    width: 40%;
 }
 
-#Branding #Logo{
-    font-size: 100px;
-}
+
 
 
 
@@ -76,11 +76,15 @@ article{
 
 /****Video****/
 
-
 #videocontainer video{
     transition: transform 0.8s;
     filter: brightness(50%);
     z-index: 0;
+    display: inline;
+    margin: 0px;
+    padding: 0px;
+    height: auto;
+    width: 100%;
 }
 
 #videocontainer video:hover{
@@ -88,19 +92,28 @@ article{
     transform: scale(2,2);
     transition: brightness 0.8s;
     filter: brightness(100%);
-    z-index: 3 !important;
+    z-index: 1 !important;
 }
 
 
 
-#videocontainer video{
-    display: inline;
-    margin: 0px;
-    padding: 0px;
-    width: 49%;
-    height: auto;
-
+.Videostream{
+    width: 50%;
+    float: right;
 }
+
+/**** SelectStory ****/
+.button{
+    height: 40px;
+    float: right;
+    text-align: center;
+    width: 100%;
+    background-color: #878787 ;
+    display: table-cell;
+    vertical-align: middle;
+    border: yellow;
+}
+
 
 
 
@@ -293,4 +306,9 @@ td p{
   margin-bottom: 3px;
 }
 
+/*** Videocontrol ****/
+
+#Videocontrol button{
+    margin-top: 15px;
+}
 

@@ -5,9 +5,9 @@
 
 
 <meta content="minimum-scale=1.0, width=device-width, maximum-scale=1, user-scalable=no" name="viewport" />
-<link type="text/css" rel="stylesheet" href="/css/layout.css"></link>
+<link type="text/css" rel="stylesheet" href="css/layout.css"></link>
 <link type="text/css" rel="stylesheet" href="https://dm25.hs-furtwangen.de/wordpress/wp-content/themes/DM25-Wordpress-Template/css/sponsor.css"></link>
-<script type='text/javascript' src='/Video/videocontrol.js'></script>
+<script type='text/javascript' src='Video/videocontrol.js'></script>
 
 <title>Upcycling</title>
 
@@ -22,12 +22,12 @@
     
 </head>
 
-<body> 
+<body onload="init();"> 
     <div id="header"> 
     </div>
     
     <div class="parallaxScrolling">
-	    <img id="paper" src="/Img/crumpled-paper-1551434_1920.jpg">
+	    <img id="paper" src="Img/crumpled-paper-1551434_1920.jpg">
     </div>
 
 
@@ -35,3 +35,6 @@
 
 <div id="wrapper">   
  <div id="vertical-center">  
+     <div id="Branding">
+         <a href="/"><img src="upcycling_logo.svg" alt="Upcycling"></a>
+     </div>
