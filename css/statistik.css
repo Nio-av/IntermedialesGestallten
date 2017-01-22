@@ -1,0 +1,47 @@
+#statistik{
+    width: 100%;
+}
+
+.element{
+    margin: 6vw;
+    float: left;
+}
+
+
+.ball{
+    border-radius: 100%;
+    text-align: center;
+    display: table-cell;
+    vertical-align: middle;
+}
+
+.gewicht{
+    text-align: center;
+}
+
+
+
+#hausmüll .ball{
+    width: calc(162px * 3);
+    height: calc(162px * 3);
+    background-color: #ea212e;
+}
+
+#papier .ball{
+    width: calc(72px * 3);
+    height: calc(72px * 3);
+    background-color: #33abe0;
+}
+
+#sperrmuell .ball{
+    width: calc(29px * 3);
+    height: calc(29px * 3);
+    background-color: #2db475;
+}
+
+
+#verpackung .ball{
+    width: calc(32px * 3);
+    height: calc(32px * 3);
+    background-color: #a57c55;
+}
