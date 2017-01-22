@@ -1,0 +1,31 @@
+#question{
+    font-size: 170px;
+    float: left;
+    display: block;
+    color: yellow;
+    margin: inherit;
+    text-shadow: 2px 1px 4px #191919;
+}
+
+#definition-Text{
+    background-color: var(--main-color);
+    color: yellow;
+    padding: 15px;
+    margin-left: 95px;
+}
+
+#begeisterung{
+    margin-top: 50px;
+    width: 100%;
+}
+
+#begeisterung .text{
+    background-color: var(--main-color);
+    padding: 15px;
+    width: calc(70% - 30px);
+    float: left;
+}
+
+#begeisterung img{
+    width: 30%;
+}

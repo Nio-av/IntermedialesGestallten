@@ -15,6 +15,12 @@
 
 /*++*Generelles++**/
 
+
+:root {
+    --main-color: #878787;
+}
+
+
 html, body {
 	margin: 0;
     padding: 0;
@@ -118,7 +124,7 @@ article{
 }
 
 .button a{
-    background-color: #878787;
+    background-color: var(--main-color);
     box-shadow: 1px 1px 4px #191919;
     display: inline-block;
     width: 96%;
