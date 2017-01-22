@@ -3,24 +3,28 @@
      <article>
          <div id="videocontainer">
              <div class="Videostream" id="trash">
-                 <video id="trashvideo">
+                 <video preload="auto" id="trashvideo">
                       <source src="Video/footage/Muell_1.mp4" type="video/mp4">
                       <source src="Video/footage/Muell.webm" type='video/webm; codecs="vp9, opus"'>
                       Your browser does not support the video tag.
                 </video>
-                 <a class ="button" href="statistik/">
-                    <div>Statistik</div>
-                 </a>
+                 <div class="button">
+                    <a href="statistik/">
+                        Statistik
+                    </a>
+                 </div>
             </div>
              <div class="Videostream" id="upscycling">
-                 <video id="upscyclingvideo">
+                 <video preload="auto" id="upscyclingvideo">
                       <source src="Video/footage/Upcycling_1.mp4" type="video/mp4">
                       <source src="Video/footage/Upcycling.webm" type='video/webm; codecs="vp9, opus"'>
                       Your browser does not support the video tag.
                 </video>
-                 <a  class="button" href="upcycling/">
-                 <div>Upcycling</div>
-                 </a>
+                 <div class="button">
+                     <a href="upcycling/">
+                        Upcycling
+                    </a>
+                </div>
             </div>
         </div>
         

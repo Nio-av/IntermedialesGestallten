@@ -37,6 +37,10 @@ color: #424242;
     width: 40%;
 }
 
+#Branding{
+    text-align: center;
+}
+
 
 
 
@@ -104,17 +108,22 @@ article{
 
 /**** SelectStory ****/
 .button{
-    height: 40px;
-    float: right;
     text-align: center;
     width: 100%;
-    background-color: #878787 ;
-    display: table-cell;
-    vertical-align: middle;
-    border: yellow;
+
 }
 
+.button a:hover{
+    background-color: lightgray;
+}
 
+.button a{
+    background-color: #878787;
+    box-shadow: 1px 1px 4px #191919;
+    display: inline-block;
+    width: 96%;
+    padding: 5px;
+}
 
 
 /*++*Hintergrund++**/
