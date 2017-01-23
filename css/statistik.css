@@ -26,11 +26,18 @@
     height: calc(162px * 3);
     background-color: #ea212e;
 }
+#hausmüll .ball:hover{
+    background-color: #c1272d;
+}
+
 
 #papier .ball{
     width: calc(72px * 3);
     height: calc(72px * 3);
     background-color: #33abe0;
+}
+#papier .ball:hover{
+    background-color: #0071bc;
 }
 
 #sperrmuell .ball{
@@ -38,10 +45,16 @@
     height: calc(29px * 3);
     background-color: #2db475;
 }
+#sperrmuell .ball:hover{
+    background-color: #006837;
+}
 
 
 #verpackung .ball{
     width: calc(32px * 3);
     height: calc(32px * 3);
     background-color: #a57c55;
+}
+#verpackung .ball:hover{
+    background-color: #754c24;
 }

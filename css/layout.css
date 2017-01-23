@@ -99,7 +99,7 @@ article{
 
 #videocontainer video:hover{
     transition: transform 0.8s;
-    transform: scale(2,2);
+    transform: scale(1.5,1.5);
     transition: brightness 0.8s;
     filter: brightness(100%);
     z-index: 1 !important;
@@ -124,6 +124,7 @@ article{
 }
 
 .button a{
+    text-decoration: none;
     background-color: var(--main-color);
     box-shadow: 1px 1px 4px #191919;
     display: inline-block;
