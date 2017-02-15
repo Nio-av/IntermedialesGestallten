@@ -14,7 +14,10 @@ function init() {
 
 
 function vidplay() {
+    video[0].volume = 1;
+    video[1].volume = 0;
     for (var i=0;i<=1;i++){
+        
         
         var button = document.getElementById("play");
         if (video[i].paused) {
@@ -32,7 +35,7 @@ function vidplay() {
 function restart() {
     for(var i = 0; i <= 1; i++){
         video[i].currentTime = 0;
-        video[i].play();
+        vidplay();
     }
 }
     
@@ -43,9 +46,10 @@ function restart() {
 
 
 
+
 function Soundcontrol(i){  // laderoutine
     video[i].addEventListener("mouseover", function(){
-                mouseOverVideo(i)
+                //mouseOverVideo(i)
                 console.log("Mouseover " + i); 
             }
       )
@@ -63,7 +67,9 @@ function mouseOverVideo(i){
 
 //*/
 
-    
+
+
+/*    
 function mouseOverVideo(i){
     
     makevideoloud(i);
@@ -73,6 +79,7 @@ function mouseOverVideo(i){
         mutevideo(0);
     }
     
+    console.log("audioänderrung");
 }
 
 
@@ -88,4 +95,49 @@ function mutevideo(i){
     video[i].muted = true;
 }
 
+
+
+
+document.addEventListener('contextmenu', event => event.preventDefault());
+$('#trashvideo').bind('contextmenu',function() { return false; });
+
+/*
+
+$(function() {
+        $(this).bind("contextmenu", function(e) {
+            e.preventDefault();
+        });
+    }); 
+
+
 //*/
+
+
+
+
+
+
+Pressure.set('#upscyclingvideo', {
+  change: function(force, event){
+    this.style.webkitFilter = 'opacity(' + force + ')';
+      
+    video[1].volume = force;
+    console.log("LAutstärke 1:" + video[1].volume);
+      
+    //video[0].volume = force + 1;
+    video[0].volume = 1 - force;
+    console.log("LAutstärke 0:" + video[0].volume);
+    
+  },
+
+
+  end: function(){
+    this.style.webkitFilter = 'opacity(0)';
+    video[0].volume = 1;
+    video[1].volume = 0;
+  },
+
+  unsupported: function(){
+    this.innerHTML = 'Your device / browser does not support this :(';
+  }
+});

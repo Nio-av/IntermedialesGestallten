@@ -97,23 +97,52 @@ article{
 }
 
 
-#trash{
-    filter: opacity(0.5);
+#upscyclingvideo{
+    filter: opacity(0);
 }
 
 
 
 
 .Videostream{
-    width: 50%;
-    float: right;
+    width: 100%;
+    position: absolute;
+    cursor: grab;
 }
+
+#videocontainer{
+    position: relative;
+    height: 57vw;
+}
+
+
+@media(min-width: 1200px){
+    #videocontainer{
+        height: 670px;
+    }
+    
+}
+
+
+.vid{
+    display:  inline-block;
+}
+
+/*/
+
 
 /**** SelectStory ****/
 .button{
     text-align: center;
-    width: 100%;
+    width: 45%;
+    float: inline-start;
+   
+}
 
+.videcontrolbutton{
+    cursor:pointer;
+    width: 40px;
+    height: auto;
 }
 
 
