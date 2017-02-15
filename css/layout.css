@@ -119,19 +119,18 @@ article{
 
 }
 
-.button a:hover{
-    background-color: lightgray;
-}
+
 
 .button a{
     text-decoration: none;
-    background-color: var(--main-color);
-    box-shadow: 1px 1px 4px #191919;
     display: inline-block;
     width: 96%;
     padding: 5px;
 }
 
+.button a img{
+    max-width: 200px;
+}
 
 /*++*Hintergrund++**/
 

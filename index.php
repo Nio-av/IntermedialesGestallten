@@ -10,7 +10,8 @@
                 </video>
                  <div class="button">
                     <a href="statistik/">
-                        Statistik
+                        <img src="Img/button_statistik.svg" alt="Statistik">
+                        
                     </a>
                  </div>
             </div>
@@ -22,7 +23,8 @@
                 </video>
                  <div class="button">
                      <a href="upcycling/">
-                        Upcycling
+                        <img src="Img/button_upcycling.svg" alt="Upcycling">
+                         
                     </a>
                 </div>
             </div>
