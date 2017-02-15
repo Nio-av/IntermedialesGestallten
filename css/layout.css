@@ -88,7 +88,6 @@ article{
 
 #videocontainer video{
     transition: transform 0.8s;
-    filter: brightness(50%);
     z-index: 0;
     display: inline;
     margin: 0px;
@@ -97,13 +96,11 @@ article{
     width: 100%;
 }
 
-#videocontainer video:hover{
-    transition: transform 0.8s;
-    transform: scale(1.5,1.5);
-    transition: brightness 0.8s;
-    filter: brightness(100%);
-    z-index: 1 !important;
+
+#trash{
+    filter: opacity(0.5);
 }
+
 
 
 
