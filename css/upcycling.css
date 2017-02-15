@@ -24,6 +24,12 @@
     background-color: var(--main-color);
     display: flex;
 }
+@media(max-width: 500px){
+    .textbox{
+        display: inherit;
+    }
+    
+}
 
 .textbox .text{
     display: contents;
@@ -41,14 +47,13 @@
 
 
 .PostIt{
-    width: 20vw;
-    height: 20vw;
+    
     background:#fefabc; 
     padding:15px; 
     font-family: 'Gloria Hallelujah', cursive; 
     font-size:20px; 
     color: #000; 
-    width:200px; 
+    width: 300px; 
     box-shadow: 0px 4px 6px #333;
     transform: rotate(7deg);
     
