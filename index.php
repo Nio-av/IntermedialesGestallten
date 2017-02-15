@@ -39,21 +39,21 @@
          
          <div id="Videocontrol">
              
-             <img class="videcontrolbutton" id="play" onclick="vidplay()" src="Img/playbuttons.svg" alt="Play">
-             <img class="videcontrolbutton" id="restart" onclick="restart()" src="Img/replaybuttons.svg" alt="Restart">
+             <img class="videcontrolbutton" id="play" onclick="vidplay()" src="<?php echo "$devpath";?>/Img/playbuttons.svg" alt="Play">
+             <img class="videcontrolbutton" id="restart" onclick="restart()" src="<?php echo "$devpath";?>/Img/replaybuttons.svg" alt="Restart">
          </div>
          
          <div id="buttonarea">
                 <div class="button">
                     <a href="statistik/">
-                        <img src="Img/button_statistik.svg" alt="Statistik">
+                        <img src="<?php echo "$devpath";?>/Img/button_statistik.svg" alt="Statistik">
                         
                     </a>
                  </div>
              
              <div class="button">
                      <a href="upcycling/">
-                        <img src="Img/button_upcycling.svg" alt="Upcycling">
+                        <img src="<?php echo "$devpath";?>/Img/button_upcycling.svg" alt="Upcycling">
                          
                     </a>
                 </div>
@@ -66,6 +66,6 @@
      </article>
 
     <script type="text/javascript" src="js/framework/pressure.js"></script>
-    <script type='text/javascript' src='Video/videocontrol.js'></script>
+    <script type='text/javascript' src='js/videocontrol.js'></script>
 
 <?php include_once "footer.php"; ?>

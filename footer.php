@@ -3,7 +3,7 @@
                 Entstanden an der Hochschule Offenburg
                 
                 
-                <img src="Img/HS_Logo_schwarz.svg" alt="HSO"></img>
+                <img src="<?php echo "$devpath";?>/Img/HS_Logo_schwarz.svg" alt="HSO"></img>
             </aside>
             
         </div><!-- ende footer -->
