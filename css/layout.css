@@ -134,7 +134,7 @@ article{
 /**** SelectStory ****/
 .button{
     text-align: center;
-    width: 45%;
+    width: 50%;
     float: inline-start;
    
 }
@@ -181,46 +181,11 @@ article{
 
 
 
-
-#footer-hfu-logo{
-    height: 78px;
-    width: 217px;
-    margin-top: 0px;
-    padding-top: 15px;
-    float: right;
-    padding-right: 15px;
-    margin-bottom: 15px;
-}
-
 #footer{
     margin-top: 60px;
     width: 100%;
     overflow: visible;
 }
-
-/* Video responsiv */
-
-
-.responsiv-video {
-    position: relative;
-    padding-bottom: 55%;
-    padding-top: 15px;
-    height: 0;
-    overflow: hidden;
-    box-shadow: 2px 1px 4px #191919;
-    margin-bottom: 20px;
-}
-
-.responsiv-video iframe {
-    position: absolute;
-    top: 0;
-    left: 0;
-    width: 100%;
-    height: 100%;
-}
-
-
-
 
 
 
@@ -236,13 +201,6 @@ article{
 
 
 @media(max-width: 750px){
-    .menu{
-        width: 100%;
-    }
-    
-    #headernav{
-        width: 100%;    
-    }
 
     #background{
         display: none;
@@ -262,43 +220,12 @@ article{
     }
 }
 
-@media(max-height: 750px) and (max-width: 750px){
-    #banner {
-        margin-top: 0px;
-    }
-}
+
 
 
 @media(max-width: 650px){
-    #banner{
-        width: 100%; 
-        background-color: #0F8957;
-        height: 40px;
-    }  
+
         
-    #banner img{
-        display: none;   
-    }
-    
-    #banner p{
-        display: block;
-        margin-left: 0px;
-        text-align: center;
-        top: -12px;
-        overflow: auto;
-    }
-    
-    
-    #footer-hfu-logo{
-        width: 100%;
-        float: none;
-        max-width: 217px;
-        margin:auto;
-        padding-bottom: 30px;
-        padding-top: 80px;
-        padding-right: 0px;
-    }
-    
     #footer{
     margin-top: 80px;       
     }
@@ -306,46 +233,7 @@ article{
     
 }
 
-@media(max-width: 400px){
-    #handwriting{
-        display: none;
-    }
-}
 
-
-/* Tabelle */
-
-
-tabled-view { 
-  width: 100%; 
-  border-collapse: collapse; 
-}
-/* Zebra striping */
-tr:nth-of-type(odd) { 
-
-}
-td, th{
-  text-align: left; 
-  padding: 6px; 
-  border: 1px solid #ccc; 
-  
-}
-td{ 
-  font-size: 0.9em;    
-  background: rgba(255, 255, 255, 0.5); 
-
-
-}
-th{
-	display: none;
-}
-
-td h3{
-  margin-top: 3px;
-}
-td p{
-  margin-bottom: 3px;
-}
 
 /*** Videocontrol ****/
 
