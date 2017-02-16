@@ -4,7 +4,6 @@ var video = new Array();
 function init() {
     for (var i=0;i<=1;i++){
         video[i] = document.getElementsByTagName("video")[i];
-        Soundcontrol(i);
     }
     
     
@@ -42,25 +41,7 @@ function restart() {
     
 
 
-// Lautstärkencontrolle //
-
-
-
-
-function Soundcontrol(i){  // laderoutine
-    video[i].addEventListener("mouseover", function(){
-                //mouseOverVideo(i)
-                console.log("Mouseover " + i); 
-            }
-      )
-    
-}
-
-
-
-
-
-
+// Kontrolle über Druck //
 
 
 Pressure.set('#upscyclingvideo', {
