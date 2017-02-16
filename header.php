@@ -12,7 +12,6 @@ $devpath = "/Intermediales_Gestallten/Upcycling-Webpage";
 <link type="text/css" rel="stylesheet" href="<?php echo "$devpath";?>/css/layout.css"></link>
 <link type="text/css" rel="stylesheet" href="<?php echo "$devpath";?>/css/upcycling.css"></link>
 <link type="text/css" rel="stylesheet" href="<?php echo "$devpath";?>/css/statistik.css"></link>
-<link type="text/css" rel="stylesheet" href="//dm25.hs-furtwangen.de/wordpress/wp-content/themes/DM25-Wordpress-Template/css/sponsor.css"></link>
 <script src="https://ajax.googleapis.com/ajax/libs/jquery/3.1.1/jquery.min.js"></script>
 
 
