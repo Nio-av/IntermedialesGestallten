@@ -57,60 +57,6 @@ function Soundcontrol(i){  // laderoutine
 }
 
 
-/*
-
-function mouseOverVideo(i){
-    console.log(video[i]);
-    console.log("Hallo " + i);
-}
-
-
-//*/
-
-
-
-/*    
-function mouseOverVideo(i){
-    
-    makevideoloud(i);
-    if(i == 0){
-        mutevideo(1);
-    } else{
-        mutevideo(0);
-    }
-    
-    console.log("audioänderrung");
-}
-
-
-
-
-function makevideoloud(i){
-    video[i].muted = false;
-}
-
-
-
-function mutevideo(i){
-    video[i].muted = true;
-}
-
-
-
-
-document.addEventListener('contextmenu', event => event.preventDefault());
-$('#trashvideo').bind('contextmenu',function() { return false; });
-
-/*
-
-$(function() {
-        $(this).bind("contextmenu", function(e) {
-            e.preventDefault();
-        });
-    }); 
-
-
-//*/
 
 
 
@@ -122,11 +68,10 @@ Pressure.set('#upscyclingvideo', {
     this.style.webkitFilter = 'opacity(' + force + ')';
       
     video[1].volume = force;
-    console.log("LAutstärke 1:" + video[1].volume);
-      
-    //video[0].volume = force + 1;
+    console.log("Lautstärke 1:" + video[1].volume);
+    
     video[0].volume = 1 - force;
-    console.log("LAutstärke 0:" + video[0].volume);
+    console.log("Lautstärke 0:" + video[0].volume);
     
   },
 
